@@ -1,0 +1,71 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to E:/2CS SIQ/SYSE/Projet/Code Source/ful_structured_test/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.59 secs
+ 
+--> Parameter xsthdpdir set to E:/2CS SIQ/SYSE/Projet/Code Source/ful_structured_test/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.59 secs
+ 
+--> Reading design: didact_top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "E:\2CS SIQ\SYSE\Projet\Code Source\ful_structured_test\msa_hdl.vhd" into library work
+Parsing entity <msa3_hdl>.
+Parsing architecture <Behavioral> of entity <msa3_hdl>.
+Parsing VHDL file "E:\2CS SIQ\SYSE\Projet\Code Source\ful_structured_test\msa4_hdl.vhd" into library work
+Parsing entity <msa4_hdl>.
+Parsing architecture <Behavioral> of entity <msa4_hdl>.
+Parsing VHDL file "E:\2CS SIQ\SYSE\Projet\Code Source\ful_structured_test\msa2_hdl.vhd" into library work
+Parsing entity <msa5_hdl>.
+Parsing architecture <Behavioral> of entity <msa5_hdl>.
+Parsing VHDL file "E:\2CS SIQ\SYSE\Projet\Code Source\ful_structured_test\diviseur_clk.vhd" into library work
+Parsing entity <diviseur_clk>.
+Parsing architecture <Behavioral> of entity <diviseur_clk>.
+Parsing VHDL file "E:\2CS SIQ\SYSE\Projet\Code Source\ful_structured_test\debounce_hdl.vhd" into library work
+Parsing entity <debounce_hdl>.
+Parsing architecture <Behavioral> of entity <debounce_hdl>.
+Parsing VHDL file "E:\2CS SIQ\SYSE\Projet\Code Source\ful_structured_test\didact_top.vhd" into library work
+Parsing entity <didact_top>.
+Parsing architecture <Behavioral> of entity <didact_top>.
+ERROR:HDLCompiler:732 - "E:\2CS SIQ\SYSE\Projet\Code Source\ful_structured_test\didact_top.vhd" Line 213: Process cannot have both a wait statement and a sensitivity list.
+ERROR:HDLCompiler:732 - "E:\2CS SIQ\SYSE\Projet\Code Source\ful_structured_test\didact_top.vhd" Line 233: Process cannot have both a wait statement and a sensitivity list.
+ERROR:HDLCompiler:854 - "E:\2CS SIQ\SYSE\Projet\Code Source\ful_structured_test\didact_top.vhd" Line 17: Unit <behavioral> ignored due to previous errors.
+VHDL file E:\2CS SIQ\SYSE\Projet\Code Source\ful_structured_test\didact_top.vhd ignored due to errors
+--> 
+
+Total memory usage is 4470088 kilobytes
+
+Number of errors   :    3 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

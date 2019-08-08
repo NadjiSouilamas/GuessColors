@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\2CS SIQ\SYSE\Projet\Code Source\jeu_final\jeu.ncd
+OUTFILE=E:\2CS SIQ\SYSE\Projet\Code Source\jeu_final\jeu.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=E:\2CS SIQ\SYSE\Projet\Code Source\jeu_final
+LICENSE=WebPack
+USER_INFO=211613366_0_0_850

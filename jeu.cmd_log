@@ -1,0 +1,108 @@
+xst -intstyle ise -ifn "E:/2CS SIQ/SYSE/Projet/Code Source/final/jeu.xst" -ofn "E:/2CS SIQ/SYSE/Projet/Code Source/final/jeu.syr" 
+xst -intstyle ise -ifn "E:/2CS SIQ/SYSE/Projet/Code Source/final/jeu.xst" -ofn "E:/2CS SIQ/SYSE/Projet/Code Source/final/jeu.syr" 
+xst -intstyle ise -ifn "E:/2CS SIQ/SYSE/Projet/Code Source/final/jeu.xst" -ofn "E:/2CS SIQ/SYSE/Projet/Code Source/final/jeu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc const.ucf -p xc6slx16-csg324-3 "jeu.ngc" jeu.ngd  
+xst -intstyle ise -ifn "E:/2CS SIQ/SYSE/Projet/Code Source/final/jeu.xst" -ofn "E:/2CS SIQ/SYSE/Projet/Code Source/final/jeu.syr" 
+xst -intstyle ise -ifn "E:/2CS SIQ/SYSE/Projet/Code Source/final/jeu.xst" -ofn "E:/2CS SIQ/SYSE/Projet/Code Source/final/jeu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc const.ucf -p xc6slx16-csg324-3 "jeu.ngc" jeu.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o jeu_map.ncd jeu.ngd jeu.pcf 
+par -w -intstyle ise -ol high -mt off jeu_map.ncd jeu.ncd jeu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml jeu.twx jeu.ncd -o jeu.twr jeu.pcf -ucf const.ucf 
+bitgen -intstyle ise -f jeu.ut jeu.ncd 
+par -w -intstyle ise -ol high -mt off jeu_map.ncd jeu.ncd jeu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml jeu.twx jeu.ncd -o jeu.twr jeu.pcf -ucf const.ucf 
+xst -intstyle ise -ifn "E:/2CS SIQ/SYSE/Projet/Code Source/final/jeu.xst" -ofn "E:/2CS SIQ/SYSE/Projet/Code Source/final/jeu.syr" 
+xst -intstyle ise -ifn "E:/2CS SIQ/SYSE/Projet/Code Source/final/jeu.xst" -ofn "E:/2CS SIQ/SYSE/Projet/Code Source/final/jeu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc const.ucf -p xc6slx16-csg324-3 "jeu.ngc" jeu.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o jeu_map.ncd jeu.ngd jeu.pcf 
+par -w -intstyle ise -ol high -mt off jeu_map.ncd jeu.ncd jeu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml jeu.twx jeu.ncd -o jeu.twr jeu.pcf -ucf const.ucf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc const.ucf -p xc6slx16-csg324-3 "jeu.ngc" jeu.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc const.ucf -p xc6slx16-csg324-3 "jeu.ngc" jeu.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o jeu_map.ncd jeu.ngd jeu.pcf 
+par -w -intstyle ise -ol high -mt off jeu_map.ncd jeu.ncd jeu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml jeu.twx jeu.ncd -o jeu.twr jeu.pcf -ucf const.ucf 
+xst -intstyle ise -ifn "E:/2CS SIQ/SYSE/Projet/Code Source/final-version-loadless-suppressed/jeu.xst" -ofn "E:/2CS SIQ/SYSE/Projet/Code Source/final-version-loadless-suppressed/jeu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc const.ucf -p xc6slx16-csg324-3 "jeu.ngc" jeu.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o jeu_map.ncd jeu.ngd jeu.pcf 
+par -w -intstyle ise -ol high -mt off jeu_map.ncd jeu.ncd jeu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml jeu.twx jeu.ncd -o jeu.twr jeu.pcf -ucf const.ucf 
+bitgen -intstyle ise -f jeu.ut jeu.ncd 
+bitgen -intstyle ise -f jeu.ut jeu.ncd 
+xst -intstyle ise -ifn "E:/2CS SIQ/SYSE/Projet/Code Source/final-version-loadless-suppressed/jeu.xst" -ofn "E:/2CS SIQ/SYSE/Projet/Code Source/final-version-loadless-suppressed/jeu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc const.ucf -p xc6slx16-csg324-3 "jeu.ngc" jeu.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o jeu_map.ncd jeu.ngd jeu.pcf 
+par -w -intstyle ise -ol high -mt off jeu_map.ncd jeu.ncd jeu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml jeu.twx jeu.ncd -o jeu.twr jeu.pcf -ucf const.ucf 
+bitgen -intstyle ise -f jeu.ut jeu.ncd 
+xst -intstyle ise -ifn "E:/2CS SIQ/SYSE/Projet/Code Source/final-version-loadless-suppressed/jeu.xst" -ofn "E:/2CS SIQ/SYSE/Projet/Code Source/final-version-loadless-suppressed/jeu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc const.ucf -p xc6slx16-csg324-3 "jeu.ngc" jeu.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o jeu_map.ncd jeu.ngd jeu.pcf 
+par -w -intstyle ise -ol high -mt off jeu_map.ncd jeu.ncd jeu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml jeu.twx jeu.ncd -o jeu.twr jeu.pcf -ucf const.ucf 
+bitgen -intstyle ise -f jeu.ut jeu.ncd 
+xst -intstyle ise -ifn "E:/2CS SIQ/SYSE/Projet/Code Source/ful_structured_test/jeu.xst" -ofn "E:/2CS SIQ/SYSE/Projet/Code Source/ful_structured_test/jeu.syr" 
+xst -intstyle ise -ifn "E:/2CS SIQ/SYSE/Projet/Code Source/ful_structured_test/jeu.xst" -ofn "E:/2CS SIQ/SYSE/Projet/Code Source/ful_structured_test/jeu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc const.ucf -p xc6slx16-csg324-3 "jeu.ngc" jeu.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o jeu_map.ncd jeu.ngd jeu.pcf 
+par -w -intstyle ise -ol high -mt off jeu_map.ncd jeu.ncd jeu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml jeu.twx jeu.ncd -o jeu.twr jeu.pcf -ucf const.ucf 
+bitgen -intstyle ise -f jeu.ut jeu.ncd 
+xst -intstyle ise -ifn "E:/2CS SIQ/SYSE/Projet/Code Source/ful_structured_test/jeu.xst" -ofn "E:/2CS SIQ/SYSE/Projet/Code Source/ful_structured_test/jeu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc const.ucf -p xc6slx16-csg324-3 "jeu.ngc" jeu.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o jeu_map.ncd jeu.ngd jeu.pcf 
+par -w -intstyle ise -ol high -mt off jeu_map.ncd jeu.ncd jeu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml jeu.twx jeu.ncd -o jeu.twr jeu.pcf -ucf const.ucf 
+bitgen -intstyle ise -f jeu.ut jeu.ncd 
+xst -intstyle ise -ifn "E:/2CS SIQ/SYSE/Projet/Code Source/ful_structured_test/jeu.xst" -ofn "E:/2CS SIQ/SYSE/Projet/Code Source/ful_structured_test/jeu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc const.ucf -p xc6slx16-csg324-3 "jeu.ngc" jeu.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o jeu_map.ncd jeu.ngd jeu.pcf 
+par -w -intstyle ise -ol high -mt off jeu_map.ncd jeu.ncd jeu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml jeu.twx jeu.ncd -o jeu.twr jeu.pcf -ucf const.ucf 
+bitgen -intstyle ise -f jeu.ut jeu.ncd 
+xst -intstyle ise -ifn "E:/2CS SIQ/SYSE/Projet/Code Source/ful_structured_test/jeu.xst" -ofn "E:/2CS SIQ/SYSE/Projet/Code Source/ful_structured_test/jeu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc const.ucf -p xc6slx16-csg324-3 "jeu.ngc" jeu.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o jeu_map.ncd jeu.ngd jeu.pcf 
+par -w -intstyle ise -ol high -mt off jeu_map.ncd jeu.ncd jeu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml jeu.twx jeu.ncd -o jeu.twr jeu.pcf -ucf const.ucf 
+bitgen -intstyle ise -f jeu.ut jeu.ncd 
+xst -intstyle ise -ifn "E:/2CS SIQ/SYSE/Projet/Code Source/ful_structured_test/jeu.xst" -ofn "E:/2CS SIQ/SYSE/Projet/Code Source/ful_structured_test/jeu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc const.ucf -p xc6slx16-csg324-3 "jeu.ngc" jeu.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o jeu_map.ncd jeu.ngd jeu.pcf 
+par -w -intstyle ise -ol high -mt off jeu_map.ncd jeu.ncd jeu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml jeu.twx jeu.ncd -o jeu.twr jeu.pcf -ucf const.ucf 
+bitgen -intstyle ise -f jeu.ut jeu.ncd 
+xst -intstyle ise -ifn "E:/2CS SIQ/SYSE/Projet/Code Source/ful_structured_test/jeu.xst" -ofn "E:/2CS SIQ/SYSE/Projet/Code Source/ful_structured_test/jeu.syr" 
+xst -intstyle ise -ifn "E:/2CS SIQ/SYSE/Projet/Code Source/ful_structured_test/jeu.xst" -ofn "E:/2CS SIQ/SYSE/Projet/Code Source/ful_structured_test/jeu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc const.ucf -p xc6slx16-csg324-3 "jeu.ngc" jeu.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o jeu_map.ncd jeu.ngd jeu.pcf 
+par -w -intstyle ise -ol high -mt off jeu_map.ncd jeu.ncd jeu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml jeu.twx jeu.ncd -o jeu.twr jeu.pcf -ucf const.ucf 
+bitgen -intstyle ise -f jeu.ut jeu.ncd 
+xst -intstyle ise -ifn "E:/2CS SIQ/SYSE/Projet/Code Source/ful_structured_test/jeu.xst" -ofn "E:/2CS SIQ/SYSE/Projet/Code Source/ful_structured_test/jeu.syr" 
+xst -intstyle ise -ifn "E:/2CS SIQ/SYSE/Projet/Code Source/ful_structured_test/jeu.xst" -ofn "E:/2CS SIQ/SYSE/Projet/Code Source/ful_structured_test/jeu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc const.ucf -p xc6slx16-csg324-3 "jeu.ngc" jeu.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o jeu_map.ncd jeu.ngd jeu.pcf 
+par -w -intstyle ise -ol high -mt off jeu_map.ncd jeu.ncd jeu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml jeu.twx jeu.ncd -o jeu.twr jeu.pcf -ucf const.ucf 
+bitgen -intstyle ise -f jeu.ut jeu.ncd 
+xst -intstyle ise -ifn "E:/2CS SIQ/SYSE/Projet/Code Source/ful_structured_test/jeu.xst" -ofn "E:/2CS SIQ/SYSE/Projet/Code Source/ful_structured_test/jeu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc const.ucf -p xc6slx16-csg324-3 "jeu.ngc" jeu.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o jeu_map.ncd jeu.ngd jeu.pcf 
+par -w -intstyle ise -ol high -mt off jeu_map.ncd jeu.ncd jeu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml jeu.twx jeu.ncd -o jeu.twr jeu.pcf -ucf const.ucf 
+bitgen -intstyle ise -f jeu.ut jeu.ncd 
+xst -intstyle ise -ifn "E:/2CS SIQ/SYSE/Projet/Code Source/ful_structured_test/jeu.xst" -ofn "E:/2CS SIQ/SYSE/Projet/Code Source/ful_structured_test/jeu.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc const.ucf -p xc6slx16-csg324-3 "jeu.ngc" jeu.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o jeu_map.ncd jeu.ngd jeu.pcf 
+par -w -intstyle ise -ol high -mt off jeu_map.ncd jeu.ncd jeu.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml jeu.twx jeu.ncd -o jeu.twr jeu.pcf -ucf const.ucf 
+bitgen -intstyle ise -f jeu.ut jeu.ncd 
+netgen -intstyle ise -ar Structure -tm jeu -w -dir netgen/synthesis -ofmt vhdl -sim jeu.ngc jeu_synthesis.vhd 
+xpwr -intstyle ise -filter {E:/2CS SIQ/SYSE/Projet/Code Source/jeu_final/iseconfig/filter.filter} -ol std jeu.ncd jeu.pcf -o jeu.pwr 
+xst -intstyle ise -filter "E:/2CS SIQ/SYSE/Projet/Code Source/jeu_final/iseconfig/filter.filter" -ifn "E:/2CS SIQ/SYSE/Projet/Code Source/jeu_final/jeu.xst" -ofn "E:/2CS SIQ/SYSE/Projet/Code Source/jeu_final/jeu.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc const.ucf -p xc6slx16-csg324-3 "jeu.ngc" jeu.ngd  
+map -filter "E:/2CS SIQ/SYSE/Projet/Code Source/jeu_final/iseconfig/filter.filter" -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o jeu_map.ncd jeu.ngd jeu.pcf 
+par -filter "E:/2CS SIQ/SYSE/Projet/Code Source/jeu_final/iseconfig/filter.filter" -w -intstyle ise -ol high -mt off jeu_map.ncd jeu.ncd jeu.pcf 
+trce -filter {E:/2CS SIQ/SYSE/Projet/Code Source/jeu_final/iseconfig/filter.filter} -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml jeu.twx jeu.ncd -o jeu.twr jeu.pcf -ucf const.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f jeu.ut jeu.ncd 

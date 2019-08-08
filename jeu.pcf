@@ -1,0 +1,200 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sun Jan 13 23:29:22 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "HS" LOCATE = SITE "N6" LEVEL 1;
+COMP "VS" LOCATE = SITE "P7" LEVEL 1;
+COMP "bt1" LOCATE = SITE "C9" LEVEL 1;
+COMP "bt2" LOCATE = SITE "A8" LEVEL 1;
+COMP "bt3" LOCATE = SITE "D9" LEVEL 1;
+COMP "bt4" LOCATE = SITE "C4" LEVEL 1;
+COMP "rst" LOCATE = SITE "B8" LEVEL 1;
+COMP "clkin" LOCATE = SITE "V10" LEVEL 1;
+COMP "RGB<0>" LOCATE = SITE "R7" LEVEL 1;
+COMP "RGB<1>" LOCATE = SITE "T7" LEVEL 1;
+COMP "RGB<2>" LOCATE = SITE "P8" LEVEL 1;
+COMP "RGB<3>" LOCATE = SITE "T6" LEVEL 1;
+COMP "RGB<4>" LOCATE = SITE "V6" LEVEL 1;
+COMP "RGB<5>" LOCATE = SITE "U7" LEVEL 1;
+COMP "RGB<6>" LOCATE = SITE "V7" LEVEL 1;
+COMP "RGB<7>" LOCATE = SITE "N7" LEVEL 1;
+TIMEGRP inst_dcm1_clkfx = BEL "inst_dcm1/clkout1_buf" BEL
+        "inst_didact/Inst_msa6_hdl/etatpres_FSM_FFd1" BEL
+        "inst_didact/Inst_msa6_hdl/etatpres_FSM_FFd2" BEL
+        "inst_didact/Inst_msa6_hdl/etatpres_FSM_FFd3" BEL
+        "inst_didact/Inst_msa6_hdl/etatpres_FSM_FFd4" BEL
+        "inst_didact/Inst_msa5_hdl/etatpres_FSM_FFd1" BEL
+        "inst_didact/Inst_msa5_hdl/etatpres_FSM_FFd2" BEL
+        "inst_didact/Inst_msa5_hdl/etatpres_FSM_FFd3" BEL
+        "inst_didact/Inst_msa5_hdl/etatpres_FSM_FFd4" BEL
+        "inst_didact/Inst_msa3_hdl/etatpres_FSM_FFd1" BEL
+        "inst_didact/Inst_msa3_hdl/etatpres_FSM_FFd2" BEL
+        "inst_didact/Inst_msa3_hdl/etatpres_FSM_FFd3" BEL
+        "inst_didact/Inst_msa4_hdl/etatpres_FSM_FFd1" BEL
+        "inst_didact/Inst_msa4_hdl/etatpres_FSM_FFd2" BEL
+        "inst_didact/Inst_msa4_hdl/etatpres_FSM_FFd3" BEL
+        "inst_didact/Inst_msa4_hdl/etatpres_FSM_FFd4" BEL
+        "inst_didact/inst_diviseur_clk/cnt4hz_20" BEL
+        "inst_didact/inst_diviseur_clk/cnt4hz_19" BEL
+        "inst_didact/inst_diviseur_clk/cnt4hz_18" BEL
+        "inst_didact/inst_diviseur_clk/cnt4hz_17" BEL
+        "inst_didact/inst_diviseur_clk/cnt4hz_16" BEL
+        "inst_didact/inst_diviseur_clk/cnt4hz_15" BEL
+        "inst_didact/inst_diviseur_clk/cnt4hz_14" BEL
+        "inst_didact/inst_diviseur_clk/cnt4hz_13" BEL
+        "inst_didact/inst_diviseur_clk/cnt4hz_12" BEL
+        "inst_didact/inst_diviseur_clk/cnt4hz_11" BEL
+        "inst_didact/inst_diviseur_clk/cnt4hz_10" BEL
+        "inst_didact/inst_diviseur_clk/cnt4hz_9" BEL
+        "inst_didact/inst_diviseur_clk/cnt4hz_8" BEL
+        "inst_didact/inst_diviseur_clk/cnt4hz_7" BEL
+        "inst_didact/inst_diviseur_clk/cnt4hz_6" BEL
+        "inst_didact/inst_diviseur_clk/cnt4hz_5" BEL
+        "inst_didact/inst_diviseur_clk/cnt4hz_4" BEL
+        "inst_didact/inst_diviseur_clk/cnt4hz_3" BEL
+        "inst_didact/inst_diviseur_clk/cnt4hz_2" BEL
+        "inst_didact/inst_diviseur_clk/cnt4hz_1" BEL
+        "inst_didact/inst_diviseur_clk/cnt4hz_0" BEL
+        "inst_didact/inst_diviseur_clk/cnt2khz_11" BEL
+        "inst_didact/inst_diviseur_clk/cnt2khz_10" BEL
+        "inst_didact/inst_diviseur_clk/cnt2khz_9" BEL
+        "inst_didact/inst_diviseur_clk/cnt2khz_8" BEL
+        "inst_didact/inst_diviseur_clk/cnt2khz_7" BEL
+        "inst_didact/inst_diviseur_clk/cnt2khz_6" BEL
+        "inst_didact/inst_diviseur_clk/cnt2khz_5" BEL
+        "inst_didact/inst_diviseur_clk/cnt2khz_4" BEL
+        "inst_didact/inst_diviseur_clk/cnt2khz_3" BEL
+        "inst_didact/inst_diviseur_clk/cnt2khz_2" BEL
+        "inst_didact/inst_diviseur_clk/cnt2khz_1" BEL
+        "inst_didact/inst_diviseur_clk/cnt2khz_0" BEL
+        "inst_didact/inst_diviseur_clk/cnt1_5hz_22" BEL
+        "inst_didact/inst_diviseur_clk/cnt1_5hz_21" BEL
+        "inst_didact/inst_diviseur_clk/cnt1_5hz_20" BEL
+        "inst_didact/inst_diviseur_clk/cnt1_5hz_19" BEL
+        "inst_didact/inst_diviseur_clk/cnt1_5hz_18" BEL
+        "inst_didact/inst_diviseur_clk/cnt1_5hz_17" BEL
+        "inst_didact/inst_diviseur_clk/cnt1_5hz_16" BEL
+        "inst_didact/inst_diviseur_clk/cnt1_5hz_15" BEL
+        "inst_didact/inst_diviseur_clk/cnt1_5hz_14" BEL
+        "inst_didact/inst_diviseur_clk/cnt1_5hz_13" BEL
+        "inst_didact/inst_diviseur_clk/cnt1_5hz_12" BEL
+        "inst_didact/inst_diviseur_clk/cnt1_5hz_11" BEL
+        "inst_didact/inst_diviseur_clk/cnt1_5hz_10" BEL
+        "inst_didact/inst_diviseur_clk/cnt1_5hz_9" BEL
+        "inst_didact/inst_diviseur_clk/cnt1_5hz_8" BEL
+        "inst_didact/inst_diviseur_clk/cnt1_5hz_7" BEL
+        "inst_didact/inst_diviseur_clk/cnt1_5hz_6" BEL
+        "inst_didact/inst_diviseur_clk/cnt1_5hz_5" BEL
+        "inst_didact/inst_diviseur_clk/cnt1_5hz_4" BEL
+        "inst_didact/inst_diviseur_clk/cnt1_5hz_3" BEL
+        "inst_didact/inst_diviseur_clk/cnt1_5hz_2" BEL
+        "inst_didact/inst_diviseur_clk/cnt1_5hz_1" BEL
+        "inst_didact/inst_diviseur_clk/cnt1_5hz_0" BEL
+        "inst_didact/inst_diviseur_clk/cnt1hz_22" BEL
+        "inst_didact/inst_diviseur_clk/cnt1hz_21" BEL
+        "inst_didact/inst_diviseur_clk/cnt1hz_20" BEL
+        "inst_didact/inst_diviseur_clk/cnt1hz_19" BEL
+        "inst_didact/inst_diviseur_clk/cnt1hz_18" BEL
+        "inst_didact/inst_diviseur_clk/cnt1hz_17" BEL
+        "inst_didact/inst_diviseur_clk/cnt1hz_16" BEL
+        "inst_didact/inst_diviseur_clk/cnt1hz_15" BEL
+        "inst_didact/inst_diviseur_clk/cnt1hz_14" BEL
+        "inst_didact/inst_diviseur_clk/cnt1hz_13" BEL
+        "inst_didact/inst_diviseur_clk/cnt1hz_12" BEL
+        "inst_didact/inst_diviseur_clk/cnt1hz_11" BEL
+        "inst_didact/inst_diviseur_clk/cnt1hz_10" BEL
+        "inst_didact/inst_diviseur_clk/cnt1hz_9" BEL
+        "inst_didact/inst_diviseur_clk/cnt1hz_8" BEL
+        "inst_didact/inst_diviseur_clk/cnt1hz_7" BEL
+        "inst_didact/inst_diviseur_clk/cnt1hz_6" BEL
+        "inst_didact/inst_diviseur_clk/cnt1hz_5" BEL
+        "inst_didact/inst_diviseur_clk/cnt1hz_4" BEL
+        "inst_didact/inst_diviseur_clk/cnt1hz_3" BEL
+        "inst_didact/inst_diviseur_clk/cnt1hz_2" BEL
+        "inst_didact/inst_diviseur_clk/cnt1hz_1" BEL
+        "inst_didact/inst_diviseur_clk/cnt1hz_0" BEL
+        "inst_didact/inst_diviseur_clk/cnt2hz_21" BEL
+        "inst_didact/inst_diviseur_clk/cnt2hz_20" BEL
+        "inst_didact/inst_diviseur_clk/cnt2hz_19" BEL
+        "inst_didact/inst_diviseur_clk/cnt2hz_18" BEL
+        "inst_didact/inst_diviseur_clk/cnt2hz_17" BEL
+        "inst_didact/inst_diviseur_clk/cnt2hz_16" BEL
+        "inst_didact/inst_diviseur_clk/cnt2hz_15" BEL
+        "inst_didact/inst_diviseur_clk/cnt2hz_14" BEL
+        "inst_didact/inst_diviseur_clk/cnt2hz_13" BEL
+        "inst_didact/inst_diviseur_clk/cnt2hz_12" BEL
+        "inst_didact/inst_diviseur_clk/cnt2hz_11" BEL
+        "inst_didact/inst_diviseur_clk/cnt2hz_10" BEL
+        "inst_didact/inst_diviseur_clk/cnt2hz_9" BEL
+        "inst_didact/inst_diviseur_clk/cnt2hz_8" BEL
+        "inst_didact/inst_diviseur_clk/cnt2hz_7" BEL
+        "inst_didact/inst_diviseur_clk/cnt2hz_6" BEL
+        "inst_didact/inst_diviseur_clk/cnt2hz_5" BEL
+        "inst_didact/inst_diviseur_clk/cnt2hz_4" BEL
+        "inst_didact/inst_diviseur_clk/cnt2hz_3" BEL
+        "inst_didact/inst_diviseur_clk/cnt2hz_2" BEL
+        "inst_didact/inst_diviseur_clk/cnt2hz_1" BEL
+        "inst_didact/inst_diviseur_clk/cnt2hz_0" BEL
+        "inst_didact/inst_diviseur_clk/clk4hz" BEL
+        "inst_didact/inst_diviseur_clk/clk2khz" BEL
+        "inst_didact/inst_diviseur_clk/clk1_5hz" BEL
+        "inst_didact/inst_diviseur_clk/clk1hz" BEL
+        "inst_didact/inst_diviseur_clk/clk2hz" BEL
+        "inst_didact/inst_diviseur_clk/div2khz_temp" BEL
+        "inst_didact/inst_diviseur_clk/div1hz_temp" BEL
+        "inst_didact/inst_diviseur_clk/div2hz_temp" BEL
+        "inst_didact/inst_diviseur_clk/div1_5hz_temp" BEL
+        "inst_didact/inst_diviseur_clk/div4hz_temp";
+PIN SP6_INS_BUFIO2FB_DCM_ML_BUFIO2FB_1_pins<1> = BEL
+        "SP6_INS_BUFIO2FB_DCM_ML_BUFIO2FB_1" PINNAME O;
+PIN inst_dcm1/dcm_sp_inst_pins<1> = BEL "inst_dcm1/dcm_sp_inst" PINNAME CLKFB;
+TIMEGRP inst_dcm1_clk0 = BEL "inst_main/Inst_vga_int/count_1" BEL
+        "inst_main/Inst_vga_int/count_0" BEL
+        "inst_main/Inst_vga_int/v_state_FSM_FFd1" BEL
+        "inst_main/Inst_vga_int/v_state_FSM_FFd2" BEL
+        "inst_main/Inst_vga_int/h_state_FSM_FFd1" BEL
+        "inst_main/Inst_vga_int/h_state_FSM_FFd2" BEL
+        "inst_main/Inst_vga_int/y_count_9" BEL
+        "inst_main/Inst_vga_int/y_count_8" BEL
+        "inst_main/Inst_vga_int/y_count_7" BEL
+        "inst_main/Inst_vga_int/y_count_6" BEL
+        "inst_main/Inst_vga_int/y_count_5" BEL
+        "inst_main/Inst_vga_int/y_count_4" BEL
+        "inst_main/Inst_vga_int/y_count_3" BEL
+        "inst_main/Inst_vga_int/y_count_2" BEL
+        "inst_main/Inst_vga_int/y_count_1" BEL
+        "inst_main/Inst_vga_int/y_count_0" BEL
+        "inst_main/Inst_vga_int/x_count_9" BEL
+        "inst_main/Inst_vga_int/x_count_8" BEL
+        "inst_main/Inst_vga_int/x_count_7" BEL
+        "inst_main/Inst_vga_int/x_count_6" BEL
+        "inst_main/Inst_vga_int/x_count_5" BEL
+        "inst_main/Inst_vga_int/x_count_4" BEL
+        "inst_main/Inst_vga_int/x_count_3" BEL
+        "inst_main/Inst_vga_int/x_count_2" BEL
+        "inst_main/Inst_vga_int/x_count_1" BEL
+        "inst_main/Inst_vga_int/x_count_0" BEL
+        "inst_main/Inst_vga_int/line_en" BEL "inst_main/Inst_vga_int/tempo"
+        BEL "inst_main/Inst_vga_int/en_25" BEL
+        "inst_main/Inst_vga_int/x_count_0_1" BEL
+        "inst_main/Inst_vga_int/x_count_1_1" BEL
+        "inst_main/Inst_vga_int/x_count_0_2" BEL
+        "inst_main/Inst_vga_int/x_count_2_1" BEL
+        "inst_main/Inst_vga_int/x_count_4_1" BEL
+        "inst_main/Inst_vga_int/x_count_6_1" BEL
+        "inst_main/Inst_vga_int/x_count_5_1" BEL
+        "inst_main/Inst_vga_int/x_count_3_1" BEL "inst_dcm1/clkout2_buf" PIN
+        "SP6_INS_BUFIO2FB_DCM_ML_BUFIO2FB_1_pins<1>" PIN
+        "inst_dcm1/dcm_sp_inst_pins<1>";
+PIN SP6_BUFIO_INSERT_ML_BUFIO2_0_pins<0> = BEL "SP6_BUFIO_INSERT_ML_BUFIO2_0"
+        PINNAME DIVCLK;
+PIN inst_dcm1/dcm_sp_inst_pins<3> = BEL "inst_dcm1/dcm_sp_inst" PINNAME CLKIN;
+TIMEGRP clkin = PIN "SP6_BUFIO_INSERT_ML_BUFIO2_0_pins<0>" PIN
+        "inst_dcm1/dcm_sp_inst_pins<3>";
+TS_clkin = PERIOD TIMEGRP "clkin" 10 ns HIGH 50%;
+TS_inst_dcm1_clkfx = PERIOD TIMEGRP "inst_dcm1_clkfx" TS_clkin / 0.16 HIGH
+        50%;
+TS_inst_dcm1_clk0 = PERIOD TIMEGRP "inst_dcm1_clk0" TS_clkin HIGH 50%;
+SCHEMATIC END;
+

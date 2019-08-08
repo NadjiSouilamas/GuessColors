@@ -1,0 +1,6 @@
+vhdl work "msa_hdl.vhd"
+vhdl work "msa4_hdl.vhd"
+vhdl work "msa2_hdl.vhd"
+vhdl work "diviseur_clk.vhd"
+vhdl work "debounce_hdl.vhd"
+vhdl work "didact_top.vhd"

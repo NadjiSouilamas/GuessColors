@@ -1,0 +1,33 @@
+NET "clkin" TNM_NET = "clkin"; 
+TIMESPEC TS_clkin = PERIOD "clkin" 10 ns HIGH 50 %; 
+
+ 
+#Clock signal
+Net "clkin" LOC = V10 ;
+NET "rst" LOC = B8;
+
+NET "bt1" LOC = C9; 
+NET "bt2" LOC = A8; 
+NET "bt3" LOC = D9;
+NET "bt4" LOC = C4;  
+
+# to modify
+#NET "seq_jeu[0]" LOC = U16; 
+#NET "seq_jeu[1]" LOC = V16; 
+#NET "seq_jeu[2]" LOC = U15;
+#NET "seq_jeu[3]" LOC = V15; 
+
+# VGA Connector
+NET "Hs" LOC = N6   ;
+NET "Vs" LOC = P7   ;
+
+NET "RGB<0>" LOC = R7 ;
+NET "RGB<1>" LOC = T7 ;
+NET "RGB<2>" LOC = P8  ;
+NET "RGB<3>" LOC = T6;
+NET "RGB<4>" LOC = V6;
+NET "RGB<5>" LOC = U7;
+NET "RGB<6>" LOC = V7 ;
+NET "RGB<7>" LOC = N7 ;
+
+
